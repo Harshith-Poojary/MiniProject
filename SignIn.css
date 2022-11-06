@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("wallpaper.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.main{
+  margin-top: 250px;
+  margin-left: 560px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+div.register{
+    background-color:rgba(90, 64, 167, 0.681);
+    width: 400px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+label{
+    font-size: 18px;
+}
+form#register{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+input#email{
+    width: 319px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    outline: none;
+    cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+        padding-left: 15px;
+        border: 1px solid #ccc;
+        border-bottom-width: 2px;
+        transition: all 0.3s ease;    
+    }
+    input#email:focus,
+input#email:valid{
+  border-color: #b8367d;
+}
+input#password{
+    width: 319px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    outline: none;
+    cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+        padding-left: 15px;
+        border: 1px solid #ccc;
+        border-bottom-width: 2px;
+        transition: all 0.3s ease;    
+    }
+    input#password:focus,
+input#password:valid{
+  border-color: #b8367d;
+}
+input#submit{
+    padding-left: 129px;
+    padding-right: 129px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:  linear-gradient(270deg,#d428b6,#be2ade 24.59%,#8330c7 50.56%,#5c2ade 74.51%,#2828d4ec);
+    /*background: linear-gradient(135deg, #429cd8, #b8367d);*/
+    border-bottom-width: 2px;
+    font-size: 16px;
+}
+#space{
+    padding-bottom: 9px;
+}
+a:hover{
+color: #af1473;
+}
+a{
+    color: #4221c8;
+}
+p{
+    padding-left: 15px;
+}
+button>img#photo{
+    width: 36px;
+    margin: 0px;
+    margin-right: 15px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+
+.signIn {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:  linear-gradient(270deg,#d428b6,#be2ade 24.59%,#8330c7 50.56%,#5c2ade 74.51%,#2828d4ec);
+    /*background: linear-gradient(135deg, #429cd8, #b8367d);*/
+    border-bottom-width: 2px;
+    font-size: 18px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+}
+.logo img{
+    height: 60px;
+}
